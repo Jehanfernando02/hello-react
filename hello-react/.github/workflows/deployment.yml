@@ -14,11 +14,12 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20 
+          node-version: 20
           cache: npm
 
-      - run: npm ci || npm install
+      - run: ls -la
 
+      - run: npm install
       - run: npm run build
 
       - name: Setup SSH
