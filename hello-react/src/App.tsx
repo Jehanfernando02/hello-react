@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <h1>Hello React + AWS EC2!</h1>
+      <h1>Hello React + AWS EC2👋</h1>
     </div>
   );
 }
